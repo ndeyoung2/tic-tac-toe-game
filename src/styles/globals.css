@@ -48,3 +48,20 @@ h1 {
   height: 100px;
   cursor: pointer;
 }
+
+.square {
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 0px 4px #ddd;
+  text-align: center;
+  font-size: 64px;
+  line-height: 100px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.square.highlight {
+  background-color: aquamarine;
+}
